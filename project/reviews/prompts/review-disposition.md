@@ -121,8 +121,8 @@ Return:
 - **GO** only when all six reports target the same clean candidate, all required
   coverage is complete, every Blocker and Material finding is resolved through a
   valid reviewed candidate, every Minor finding is corrected or explicitly
-  accepted with rationale, the pilot gate passes, and no material dissent is
-  hidden;
+  accepted with rationale, pilot status and evidence claims are truthful, and
+  no material dissent is hidden;
 - **NO-GO** when any release condition remains unmet; or
 - **NOT DISPOSED** when inputs or source boundaries are invalid.
 
@@ -142,7 +142,7 @@ Write a publication-safe disposition outside the candidate tree with:
 5. Complete finding ledger.
 6. Correction and rerun verification.
 7. Material dissent and limitations.
-8. Pilot-gate status.
+8. Pilot-status and evidence-boundary result.
 9. Remaining release-assembly and publication gates.
 10. Final rationale and verdict.
 

@@ -76,10 +76,12 @@ be maintained, the reviewer stops with `NOT REVIEWED`.
 
 ## Review sequence
 
-### 1. Complete content and pilot
+### 1. Complete content and pilot protocol
 
-Complete all intended v1.0.0 content, including the truthful sanitized owner
-pilot record. The pilot must pass before the content candidate is prepared.
+Complete all intended v1.0.0 content, including the truthful owner-pilot
+protocol and current status. A planned, not-started, incomplete, reshaped, or
+stopped pilot is valid when labeled accurately and supports no outcome claim.
+Pilot completion is not required before the content candidate is prepared.
 
 ### 2. Finalize publication metadata
 

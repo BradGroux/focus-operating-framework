@@ -110,26 +110,23 @@ review time. Confirm Focus independence, separate governance, later Commons
 recognition, and immutable Focus v1.0.0 publication order are stated without
 contradiction.
 
-### Pilot gate
+### Pilot status and evidence boundary
 
-The release-integrity review can return GO only if the public owner-pilot record
-truthfully shows:
+Verify that the public owner-pilot record states its actual status and does not
+present an empty, planned, not-started, incomplete, reshaped, or stopped pilot
+as positive outcome evidence. Pilot completion is not required for the initial
+documentation release.
 
-- at least three weeks and thirty counted episodes;
-- all required life scopes and five practice paths;
-- three Focus Reviews, multiple Check-Ins and Journal Entries, and one complete
-  round trip;
-- median usefulness at least 4;
-- more than half lower net burden and fewer than three representative equal or
-  higher burden episodes;
-- recoverable provenance and authority;
-- no material privacy, sharing, overwrite, or unauthorized-action failure; and
-- viable manual continuity.
+If a completed result is included, verify that the record supports its stated
+duration, counted episodes, required coverage, aggregate measures, material
+failure results, manual continuity result, and disposition. Confirm that every
+result remains labeled as sanitized single-practitioner evidence and is not
+presented as general effectiveness, safety, clinical value, or market
+validation.
 
-If the pilot is still incomplete, record a Material release-gate finding and
-return `NO-GO` even if the documentation package is otherwise structurally
-sound. Do not treat an intentionally blank pilot protocol as fabricated
-evidence.
+Treat fabricated evidence, a false pilot status, an unsupported completed
+result, or an unsupported outcome claim as release-blocking. Do not treat an
+intentionally blank or incomplete protocol as a release failure.
 
 ### Review-process readiness
 
@@ -155,8 +152,9 @@ Use the common severity model.
 - Invalid commit or tree, a non-annotated or mismatched Commons pin, generated
   report contamination, fabricated evidence, or a false released state is
   Blocker.
-- Missing required files, failed pilot gate, broken canonical links, invalid
-  license or citation identity, or contradictory release assembly is Material.
+- Missing required files, false or unsupported pilot evidence, broken canonical
+  links, invalid license or citation identity, or contradictory release
+  assembly is Material.
 - Bounded metadata, link-label, or heading defects may be Minor when release
   identity and meaning remain intact.
 
@@ -172,7 +170,7 @@ Write a publication-safe report outside the candidate tree with:
 5. Link, heading, and Markdown results.
 6. Metadata and license results.
 7. Commons pin results.
-8. Pilot-gate result.
+8. Pilot-status and evidence-boundary result.
 9. Review-process readiness result.
 10. Findings in the common format.
 11. Explicit checks passed with no finding.

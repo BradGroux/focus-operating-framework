@@ -114,7 +114,8 @@ real-world effectiveness and does not replace steward approval.
 The founding steward is the only release authority. Version 1.0.0 requires:
 
 1. a complete documentation package;
-2. a completed owner pilot that meets the published gate;
+2. a truthful owner-pilot protocol and status that make no unsupported evidence
+   claim;
 3. phase-neutral publication metadata finalized before review;
 4. an exact content candidate and all required independent reviews;
 5. a documented GO disposition that preserves findings, corrections, reruns,
@@ -126,6 +127,11 @@ The founding steward is the only release authority. Version 1.0.0 requires:
 10. release metadata containing the byte-identical attestation; and
 11. post-merge public readback of authorship, tree, tag, release, links, and
     review records.
+
+The owner pilot is an evidence track, not a prerequisite for the initial
+documentation release. Its completion, findings, and any resulting framework
+changes enter a later version through this governance. A false pilot status or
+unsupported outcome claim blocks release.
 
 A material unresolved finding blocks release unless the final disposition
 explicitly records a reasoned steward decision that the framework permits. No

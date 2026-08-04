@@ -75,7 +75,8 @@ Verify exact semantic consistency for:
 - Separately controlled connector authority levels and Action Receipts.
 - Private practice and bounded shared promotion.
 - Portable exit and manual continuity.
-- Evidence limits, owner-pilot gate, review isolation, and release model.
+- Evidence limits, owner-pilot status and boundaries, review isolation, and
+  release model.
 - Documentation-only anti-scope and future implementation independence.
 
 ### Cross-surface comparisons

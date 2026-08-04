@@ -36,6 +36,11 @@ creating requirements or claiming general effectiveness.
 
 When returning to something or deciding what deserves attention:
 
+A **derivative** is a representation made from a source. A **record of
+authority** is the artifact or system the individual designates as controlling
+for a specific purpose. **Promotion** is the individual's approved placement of
+selected material into that named record while preserving provenance.
+
 1. **Orient:** What context am I in, why does this matter, and what limits apply?
 2. **Capture:** What, if anything, is worth preserving for this purpose?
 3. **Clarify:** What is source fact, derivative, uncertainty, correction, or
@@ -94,7 +99,7 @@ Commons change after Focus is published.
 | `examples/` | Show fictional applications | Illustrative only |
 | `docs/adr/` | Record accepted decisions | Accepted rationale and constraints |
 | `project/specifications/` | Record product requirements | Delivery specification |
-| `project/pilots/` | Record bounded owner-pilot evidence | Practice evidence, not doctrine |
+| [`project/pilots/`](project/pilots/README.md) | Record bounded owner-pilot evidence | Practice evidence, not doctrine |
 | `project/reviews/` | Define and retain release reviews | Review evidence, not doctrine |
 | `GOVERNANCE.md` | Control change and release | Repository governance |
 
@@ -106,10 +111,11 @@ immutable annotated `v1.0.0` tag and public release whose merged tree,
 attestation, review records, and authorship pass the gates in the
 [v1.0.0 specification](project/specifications/v1.0.0.md).
 
-The examples are fictional. The owner pilot is single-practitioner evidence.
-Documentation review can test clarity, internal coherence, misuse resistance,
-and publication hygiene; it cannot prove focus, output, wellbeing, safety, or
-general effectiveness.
+The examples are fictional. The owner-pilot protocol is optional evidence work,
+not a v1.0.0 release prerequisite. Any completed result is
+single-practitioner evidence. Documentation review can test clarity, internal
+coherence, misuse resistance, and publication hygiene; it cannot prove focus,
+output, wellbeing, safety, or general effectiveness.
 
 ## Contributing, license, and citation
 

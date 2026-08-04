@@ -35,9 +35,10 @@ real situation and may continue, defer, release, or stop.
 _Avoid_: Software event, completed workflow, productivity unit
 
 **Owner pilot**:
-Pre-release use of the framework by its steward across representative Focus
-episodes to find friction, contradictions, and unsafe boundaries. It is
-practice evidence, not general validation.
+Bounded use of the framework by its steward across representative Focus
+episodes to find friction, contradictions, and unsafe boundaries. It may begin
+before or after publication and is practice evidence, not general validation or
+a prerequisite for the initial documentation release.
 _Avoid_: User study, market validation, effectiveness proof
 
 **Commons adoption**:

@@ -1,25 +1,26 @@
 # Owner pilots
 
-Owner pilots test Focus through bounded real use before release. They identify
-friction, contradictions, unsafe boundaries, and places where a simpler
-practice is better. An owner pilot is single-practitioner practice evidence, not
-market validation, clinical evidence, certification, or proof of general
-effectiveness.
+Owner pilots test Focus through bounded real use. They identify friction,
+contradictions, unsafe boundaries, and places where a simpler practice is
+better. A pilot may begin before or after publication, but it is not a
+prerequisite for the initial documentation release. An owner pilot is
+single-practitioner practice evidence, not market validation, clinical
+evidence, certification, or proof of general effectiveness.
 
 ## Version 1.0.0 pilot
 
 The [v1.0.0 owner-pilot record](v1.0.0-owner-pilot.md) is the public,
-publication-safe release-gate record. It begins as a protocol and empty result
+publication-safe protocol introduced with v1.0.0 and its eventual result
 surface. The founding steward completes it only from actual episodes.
 
 Do not fabricate or prefill an episode, rating, pass result, finding, date, or
-disposition. Until the record contains the required evidence and a truthful
-result, the v1.0.0 pilot gate remains incomplete.
+disposition. A planned or incomplete record supports no outcome claim, but does
+not block publication of the framework documentation.
 
 ## Evidence boundary
 
 The public record contains only the minimum sanitized evidence needed to audit
-coverage and the release decision:
+coverage and the pilot disposition:
 
 - anonymous episode identifiers;
 - week or relative day, not unnecessary personal dates;
@@ -34,7 +35,7 @@ Do not publish source content, Journal text, Check-In text, names, employers,
 projects, appointments, locations, credentials, account identifiers, private
 links, proprietary work, third-party details, or supporting-tool identities.
 The detailed practice itself can remain private. The public record should say
-only enough to substantiate the gate.
+only enough to substantiate the stated pilot result.
 
 ## Counted episode rule
 
@@ -52,7 +53,7 @@ An episode with missing required measures does not count.
 
 ## Stop authority
 
-The pilot is a safety gate, not a target to complete at any cost. The founding
-steward stops or reshapes the method when a stop condition is reached. A failed
-pilot should remain visible and should block or change the release rather than
-being reframed as success.
+The pilot is an evidence safeguard, not a target to complete at any cost. The
+founding steward stops or reshapes the method when a stop condition is reached.
+A failed pilot remains visible and must inform any later evidence claim or
+framework change rather than being reframed as success.

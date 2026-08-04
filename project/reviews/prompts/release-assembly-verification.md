@@ -102,7 +102,7 @@ Recheck:
 - every local Markdown file and heading target;
 - canonical name, version, status, author, citation, license, and changelog;
 - exact Commons tag, commit, independence, and release order;
-- completed owner-pilot gate and its evidence limits;
+- truthful owner-pilot status and its evidence limits;
 - six review verdicts and final disposition;
 - absence of private context, outside-source contamination, fabricated evidence,
   credentials, and attribution leakage;
@@ -149,7 +149,7 @@ Do not create or mutate the tag or release in this verification task.
 Use Blocker, Material, Minor, and Suggestion for findings, but return:
 
 - **VERIFIED** only when identifiers, allowlist diff, record bytes, disposition,
-  pilot, metadata, links, Commons pin, and release plan all pass with no
+  pilot status, metadata, links, Commons pin, and release plan all pass with no
   unresolved release-blocking finding; or
 - **NOT VERIFIED** for any mismatch, ambiguity, content change, concealed
   finding, failed gate, or unsafe attestation condition.

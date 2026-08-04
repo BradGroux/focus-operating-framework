@@ -55,11 +55,17 @@ They choose to correct the second section, defer formatting, and leave a questio
 for a later decision. They do not create a new project, task database, or
 priority score.
 
+Before changing the shared draft, they preview the exact target, current
+revision, section to replace, proposed wording, and supporting sources. The
+preview includes no private continuity history.
+
 ### Continue
 
 The individual edits the authoritative draft directly under the work system's
-normal controls. They update the private continuity cue with the exact unresolved
-question and then stop.
+normal controls. They read the destination again and create a manual Action
+Receipt recording the target and prior revision, requested section edit,
+visible success, resulting revision, and destination readback. They update the
+private continuity cue with the exact unresolved question and then stop.
 
 ## Provenance and authority
 
@@ -69,6 +75,7 @@ question and then stop.
 | Supporting files | Digital sources | Control the claims they contain |
 | Private continuity cue | Temporary digital note | Non-authoritative aid to resumption |
 | Unresolved question | Proposal for later review | Not accepted into the deliverable |
+| Manual Action Receipt | Evidence of the exact external mutation | Records target, request, result, and destination readback |
 
 ## Boundaries
 
@@ -78,6 +85,8 @@ question and then stop.
 - No private Focus history is shared with colleagues.
 - Updated source evidence overrides neither the draft nor the person's judgment
   automatically; it triggers accountable review.
+- A direct human edit to an external record still requires an exact preview and
+  Action Receipt.
 - The episode may end with an unresolved question.
 
 ## Illustrative outcome
@@ -91,5 +100,6 @@ prove a digital note is always sufficient or that Focus replaces project work.
 - A continuity cue should point to authority rather than duplicate it.
 - Freshness must be rechecked after an interruption.
 - Focus can resume work without becoming another task system.
+- Direct human action does not bypass external-mutation accountability.
 - An unresolved proposal can remain visible without blocking responsible
   progress.

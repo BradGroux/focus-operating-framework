@@ -82,8 +82,9 @@ Confirm that:
 - status language is phase-neutral: content files do not claim that a working
   copy is published or permanently claim that no release exists, and the public
   annotated tag plus release evidence controls publication status;
-- the owner-pilot record remains `INCOMPLETE` unless actual evidence supports a
-  different result;
+- the owner-pilot record remains planned, not started, or incomplete unless
+  actual evidence supports a different result, and an empty protocol is not
+  presented as outcome evidence;
 - review records remain absent from the clean candidate;
 - examples are marked fictional, illustrative, and non-authoritative;
 - no example outcome is presented as proof;
