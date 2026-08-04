@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use the Focus Operating Framework, cite this repository."
+title: "Focus Operating Framework"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Groux
+    given-names: Brad
+license: MIT
+repository-code: "https://github.com/BradGroux/focus-operating-framework"
+abstract: >-
+  An open individual operating framework for directing attention and preserving
+  continuity across the work and personal contexts a person chooses.
+keywords:
+  - focus
+  - attention
+  - continuity
+  - individual operating framework
+  - physical-digital practice
