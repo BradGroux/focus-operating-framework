@@ -16,7 +16,7 @@ All material changes to the Focus Operating Framework are recorded here.
 - Synchronized the charter, README, citation, version, specification, and
   release documentation for v1.1.0.
 
-### Added
+### Added in 1.1.0
 
 - ADR 0009 with the exact Commons tag, commit, tree, compatibility analysis,
   alternatives, decision, and consequences.
@@ -33,7 +33,7 @@ All material changes to the Focus Operating Framework are recorded here.
 - Focus v1.0.0 and all of its specification, pilot, review, tag, release, and
   Commons v1.0.0 adoption records remain immutable.
 
-### Publication boundary
+### 1.1.0 publication boundary
 
 This section identifies the v1.1.0 content; it does not prove that a copy,
 branch, tag, or release is authentic. Publication is valid only when all gates
