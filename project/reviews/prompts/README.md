@@ -60,7 +60,7 @@ review cannot begin.
 For each independent review:
 
 1. Create a clean reviewing task with no prior project conversation, memory,
-   private research, or other review report.
+   private research, or other current-release review report.
 2. Provide only the populated assigned prompt, the exact clean content-candidate
    tree, and the exact adopted Commons release.
 3. Ensure all target-release generated review-record paths are absent from the

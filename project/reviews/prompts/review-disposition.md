@@ -95,7 +95,8 @@ only valid response is:
 1. identify the changed path;
 2. return `NO-GO` for the old candidate;
 3. require a new clean content candidate; and
-4. require affected independent reviews to rerun without prior findings.
+4. require affected independent reviews to rerun without access to superseded
+   current-release findings.
 
 Do not use the disposition to approve an unreviewed correction. Evidence-only
 placement or sanitization changes inside allowlisted review records must retain

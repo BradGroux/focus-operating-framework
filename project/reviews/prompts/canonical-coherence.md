@@ -18,17 +18,17 @@ framework method, governance, exact Commons adoption, and evidence boundaries.
 ## Preflight and stop conditions
 
 Verify exact commit, exact tree, clean state, candidate inventory, absence of all
-predeclared generated review records, report-path absence, and the exact adopted
-Commons release. Stop with `NOT REVIEWED` on mismatch, target movement, prior
-review exposure, missing required content, or source-boundary failure. Do not
-modify the candidate.
+target-release generated review records, report-path absence, and the exact
+adopted Commons release. Stop with `NOT REVIEWED` on mismatch, target movement,
+current-release review exposure, missing required content, or source-boundary
+failure. Do not modify the candidate.
 
 ## Permitted evidence
 
 Use only the exact candidate, this prompt, and Commons `{{COMMONS_RELEASE}}` at
 `{{COMMONS_COMMIT}}`. Do not use private research, memory, conversation history,
-working branches, other reviews, source inspiration, outside frameworks, or an
-implementation.
+working branches, other current-release reviews, source inspiration, outside
+frameworks, or an implementation.
 
 ## Review task
 

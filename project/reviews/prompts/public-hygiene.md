@@ -19,17 +19,17 @@ that would make the package unsafe or misleading to publish.
 ## Preflight and stop conditions
 
 Verify exact commit, tree, clean state, complete file inventory, absence of all
-predeclared generated review records, report-path absence, and exact Commons
+target-release generated review records, report-path absence, and exact Commons
 release availability. Stop with `NOT REVIEWED` if the target differs, changes
-during review, exposes prior findings, or cannot be inspected within the source
-boundary. Do not modify the candidate.
+during review, exposes current-release review findings, or cannot be inspected
+within the source boundary. Do not modify the candidate.
 
 ## Permitted evidence
 
 Use only the exact candidate, this prompt, and Commons
 `{{COMMONS_RELEASE}}` at `{{COMMONS_COMMIT}}`. Do not use private research,
-repository history, prior conversations, memory, other reviews, source
-inspiration, outside search, or private pilot material.
+repository history, prior conversations, memory, other current-release reviews,
+source inspiration, outside search, or private pilot material.
 
 ## Review task
 

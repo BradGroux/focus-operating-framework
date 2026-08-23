@@ -30,8 +30,9 @@ boundary cannot be maintained. Do not modify the candidate.
 
 Use only the exact clean candidate, this prompt, and Commons
 `{{COMMONS_RELEASE}}` at `{{COMMONS_COMMIT}}`. Do not use private research,
-history, prior conversations, memory, other findings, application behavior,
-outside frameworks, or assumptions about benevolent implementation.
+history, prior conversations, memory, other current-release review findings,
+application behavior, outside frameworks, or assumptions about benevolent
+implementation.
 
 ## Review task
 

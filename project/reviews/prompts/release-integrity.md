@@ -38,8 +38,8 @@ source boundary cannot be preserved. Do not repair the candidate.
 
 Use only the exact candidate, this prompt, and the exact Commons release needed
 to verify the adoption pin. Do not use private research, history beyond the
-target, prior conversations, memory, other reviews, working branches, or future
-release assumptions.
+target, prior conversations, memory, other current-release reviews, working
+branches, or future release assumptions.
 
 ## Review task
 

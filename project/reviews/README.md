@@ -137,7 +137,8 @@ If a finding requires any change outside the allowlist:
 2. create a new clean content-candidate commit with generated records absent;
 3. retain the superseded report and a publication-safe correction ledger outside
    the candidate so the final disposition can preserve review history;
-4. rerun every affected independent review without prior findings; and
+4. rerun every affected independent review without access to superseded
+   current-release findings; and
 5. add only the final reports for the new target.
 
 Do not let an old report approve a changed tree or expose it to an isolated
