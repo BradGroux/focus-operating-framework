@@ -3,7 +3,7 @@
 - **Status:** Accepted
 - **Date:** 2026-08-22
 - **Focus release:** v1.1.0
-- **Public proposal:** [Issue 6](https://github.com/BradGroux/focus-operating-framework/issues/6)
+- **Public proposal:** [Commons v1.1.0 adoption proposal (Issue 6)](https://github.com/BradGroux/focus-operating-framework/issues/6)
 
 ## Context
 
