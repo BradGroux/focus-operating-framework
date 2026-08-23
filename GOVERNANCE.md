@@ -1,15 +1,16 @@
 # Governance
 
-- **Status:** Accepted initial governance
+- **Status:** Accepted governance for v1.1.0
 - **Founding steward and release authority:** Brad Groux
 - **Effective date:** 2026-08-04
+- **Last amended:** 2026-08-22
 
 ## Purpose
 
 This document governs how the Focus Operating Framework changes while remaining
 individual, independent, tool-agnostic, and accountable to its
 [charter](framework/charter.md) and adopted [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0).
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
 
 ## Public authority
 
@@ -75,9 +76,9 @@ or silently amend canonical guidance.
 
 ## Commons adoption
 
-Focus adopts Open Framework Commons v1.0.0 exactly. The adopted annotated tag
+Focus adopts Open Framework Commons v1.1.0 exactly. The adopted annotated tag
 peels to
-[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031).
+[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
 
 Focus owns its local purpose, method, terminology, examples, governance, and
 releases. Commons owns its own shared statements and release decisions. Neither
@@ -89,10 +90,10 @@ and a Focus release. If Focus must deviate from an adopted shared statement,
 the release must identify the exact statement, rationale, consequences, and
 steward decision.
 
-Focus v1.0.0 may be published independently before Commons names it as an
-ecosystem product. Any later Commons recognition is a separate Commons issue,
-pull request, review, and release. Focus v1.0.0 is immutable and is never moved
-to absorb that later change.
+Commons v1.1.0 recognizes Focus as an independent ecosystem product. The
+recognition does not transfer product authority or alter Focus v1.0.0. The
+v1.0.0 Focus tag and release remain immutable, and this repository adopts the
+newer Commons release only through the v1.1.0 decision and release.
 
 ## Review authority and evidence
 
@@ -111,7 +112,8 @@ real-world effectiveness and does not replace steward approval.
 
 ## Release authority and sequence
 
-The founding steward is the only release authority. Version 1.0.0 requires:
+The founding steward is the only release authority. Every Focus release
+requires:
 
 1. a complete documentation package;
 2. a truthful owner-pilot protocol and status that make no unsupported evidence
@@ -128,10 +130,10 @@ The founding steward is the only release authority. Version 1.0.0 requires:
 11. post-merge public readback of authorship, tree, tag, release, links, and
     review records.
 
-The owner pilot is an evidence track, not a prerequisite for the initial
-documentation release. Its completion, findings, and any resulting framework
-changes enter a later version through this governance. A false pilot status or
-unsupported outcome claim blocks release.
+The owner pilot is an evidence track, not a release prerequisite. Its
+completion, findings, and any resulting framework changes enter a later version
+through this governance. A false pilot status or unsupported outcome claim
+blocks release.
 
 A material unresolved finding blocks release unless the final disposition
 explicitly records a reasoned steward decision that the framework permits. No

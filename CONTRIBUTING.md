@@ -7,6 +7,10 @@ provenance, tool replaceability, or the framework's documentation-only scope.
 Read the [charter](framework/charter.md), [canonical language](CONTEXT.md), and
 [governance](GOVERNANCE.md) before proposing a change.
 
+Use the repository's structured Focus change issue form for a new proposal.
+The pull-request template carries the same classification, authority, privacy,
+and verification checks into implementation review.
+
 ## Before opening a proposal
 
 Check that the change:

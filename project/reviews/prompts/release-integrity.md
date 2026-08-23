@@ -25,11 +25,11 @@ Before reading content, verify:
 
 1. the commit and tree exactly match the populated values;
 2. the tree is clean and complete;
-3. all predeclared generated review-record paths are absent;
+3. all target-release generated review-record paths are absent;
 4. the report destination is absent;
 5. the adopted Commons tag is annotated and resolves to the exact populated
    commit; and
-6. no other review finding or disposition is visible.
+6. no other current-release review finding or disposition is visible.
 
 Stop with `NOT REVIEWED` if any check fails, if the target changes, or if the
 source boundary cannot be preserved. Do not repair the candidate.
@@ -38,8 +38,8 @@ source boundary cannot be preserved. Do not repair the candidate.
 
 Use only the exact candidate, this prompt, and the exact Commons release needed
 to verify the adoption pin. Do not use private research, history beyond the
-target, prior conversations, memory, other reviews, working branches, or future
-release assumptions.
+target, prior conversations, memory, other current-release reviews, working
+branches, or future release assumptions.
 
 ## Review task
 
@@ -57,19 +57,23 @@ Verify presence and readable content for:
 - `GOVERNANCE.md`
 - `LICENSE`
 - `SECURITY.md`
+- `VERSION`
+- `.github/ISSUE_TEMPLATE/focus-change.yml`
+- `.github/PULL_REQUEST_TEMPLATE.md`
 - all seven canonical files under `framework/`
 - `examples/README.md` and all seven numbered examples
 - all accepted ADRs under `docs/adr/`
-- `project/specifications/v1.0.0.md`
+- `project/specifications/{{FOCUS_RELEASE}}.md`
+- `project/releases/{{FOCUS_RELEASE}}.md`
 - `project/pilots/README.md`
-- `project/pilots/v1.0.0-owner-pilot.md`
+- `project/pilots/v1.0.0-owner-pilot.md` as retained historical evidence;
 - `project/reviews/README.md`
 - `project/reviews/prompts/README.md`
 - all nine named review prompts.
 
 Confirm that no application code, schema, provider-specific connector design,
-automation, CI, runtime, conformance layer, rendered artifact, or generated
-review record is present.
+automation, CI, runtime, conformance layer, rendered artifact, or target-release
+generated review record is present.
 
 ### Link, heading, and Markdown integrity
 
@@ -89,14 +93,15 @@ Verify:
 Verify:
 
 - the framework name, author, version, status, and license agree across README,
-  charter, changelog, citation, governance, specification, and license;
-- citation metadata is structurally valid, names Brad Groux, identifies version
-  1.0.0 and the intended first-party repository, and either omits a release date
-  or uses the fixed publication date;
+  charter, changelog, citation, governance, `VERSION`, specification, target
+  release record, and license;
+- citation metadata is structurally valid, names Brad Groux, identifies the
+  target release and intended first-party repository, and either omits a release
+  date or uses the fixed publication date;
 - copyright is consistent;
 - publication metadata was finalized before this content candidate: the
-  changelog identifies v1.0.0 without a permanent `Unreleased` claim, the
-  charter is accepted for v1.0.0, and content files do not permanently claim
+  changelog identifies {{FOCUS_RELEASE}} without a permanent `Unreleased` claim, the
+  charter is accepted for {{FOCUS_RELEASE}}, and content files do not permanently claim
   that no review, tag, or release exists;
 - contribution terms agree with the MIT License; and
 - no working copy or branch is presented as proof of publication; only the
@@ -104,18 +109,18 @@ Verify:
 
 ### Commons pin
 
-Verify every Commons reference uses `{{COMMONS_RELEASE}}` and
-`{{COMMONS_COMMIT}}`. Confirm the exact annotated tag resolves to that commit at
-review time. Confirm Focus independence, separate governance, later Commons
-recognition, and immutable Focus v1.0.0 publication order are stated without
-contradiction.
+Verify every current-adoption Commons reference uses `{{COMMONS_RELEASE}}` and
+`{{COMMONS_COMMIT}}`, while immutable historical release records retain their
+exact earlier pins. Confirm the current annotated tag resolves to the populated
+commit at review time. Confirm Focus independence, separate governance, the
+sequence from v1.0.0 publication to later Commons recognition, and immutable
+historical release records are stated without contradiction.
 
 ### Pilot status and evidence boundary
 
 Verify that the public owner-pilot record states its actual status and does not
 present an empty, planned, not-started, incomplete, reshaped, or stopped pilot
-as positive outcome evidence. Pilot completion is not required for the initial
-documentation release.
+as positive outcome evidence. Pilot completion is not a release prerequisite.
 
 If a completed result is included, verify that the record supports its stated
 duration, counted episodes, required coverage, aggregate measures, material
@@ -162,7 +167,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 release-integrity review`
+1. `# Focus {{FOCUS_RELEASE}} release-integrity review`
 2. Metadata: role, exact commit, exact tree, Commons tag object and peeled
    commit, review date, verdict.
 3. Source boundary and exclusions.

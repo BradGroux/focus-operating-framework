@@ -2,6 +2,43 @@
 
 All material changes to the Focus Operating Framework are recorded here.
 
+## 1.1.0
+
+### Changed
+
+- Adopted Open Framework Commons v1.1.0 at peeled commit
+  `f25a2b89b4aed95984fd235e2e229efe52c125d8` after a Focus-local compatibility
+  review and accepted decision.
+- Recorded Commons recognition of Focus as an independent ecosystem product
+  without transferring product authority or changing Focus practice meaning.
+- Generalized governance and exact-candidate review instructions for releases
+  after v1.0.0.
+- Synchronized the charter, README, citation, version, specification, and
+  release documentation for v1.1.0.
+
+### Added in 1.1.0
+
+- ADR 0009 with the exact Commons tag, commit, tree, compatibility analysis,
+  alternatives, decision, and consequences.
+- A v1.1.0 release specification and phase-neutral release record.
+- A machine-readable `VERSION` file.
+- A structured Focus change issue form and pull-request template.
+
+### Preserved
+
+- The definition, Mission, first job, ten commitments, six concerns, seven
+  moves, individual scope, authority model, paper path, selective admission,
+  Journal privacy, AI boundary, optional patterns, portable exit, and evidence
+  limits are unchanged.
+- Focus v1.0.0 and all of its specification, pilot, review, tag, release, and
+  Commons v1.0.0 adoption records remain immutable.
+
+### 1.1.0 publication boundary
+
+This section identifies the v1.1.0 content; it does not prove that a copy,
+branch, tag, or release is authentic. Publication is valid only when all gates
+in the [v1.1.0 specification](project/specifications/v1.1.0.md) are complete.
+
 ## 1.0.0
 
 ### Added

@@ -18,20 +18,21 @@ collapse, autonomous action, unsafe exposure, or an everything app.
 
 ## Preflight and stop conditions
 
-Verify exact commit, exact tree, clean state, absence of all predeclared
+Verify exact commit, exact tree, clean state, absence of all target-release
 generated review records, absence of the report destination, and availability
 of the exact adopted Commons release before review.
 
 Stop and return `NOT REVIEWED` if any value does not match, the candidate
-changes, a prior review or disposition is visible, or the evidence boundary
-cannot be maintained. Do not modify the candidate.
+changes, a current-release review or disposition is visible, or the evidence
+boundary cannot be maintained. Do not modify the candidate.
 
 ## Permitted evidence
 
 Use only the exact clean candidate, this prompt, and Commons
 `{{COMMONS_RELEASE}}` at `{{COMMONS_COMMIT}}`. Do not use private research,
-history, prior conversations, memory, other findings, application behavior,
-outside frameworks, or assumptions about benevolent implementation.
+history, prior conversations, memory, other current-release review findings,
+application behavior, outside frameworks, or assumptions about benevolent
+implementation.
 
 ## Review task
 
@@ -112,7 +113,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 adversarial misuse review`
+1. `# Focus {{FOCUS_RELEASE}} adversarial misuse review`
 2. Metadata: role, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Files inspected.

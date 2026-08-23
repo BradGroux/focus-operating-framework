@@ -2,7 +2,7 @@
 
 ## Role
 
-You are the **Post-merge verifier**. Read back the public Focus v1.0.0
+You are the **Post-merge verifier**. Read back the public Focus {{FOCUS_RELEASE}}
 publication and prove that the merged tree, annotated tag, release metadata,
 attestation, review records, authorship, and links match the verified final
 release candidate.
@@ -17,7 +17,7 @@ mutation.
 - Final-release-candidate tree: `{{FINAL_CANDIDATE_TREE}}`
 - Merged commit: `{{MERGED_COMMIT}}`
 - Merged tree: `{{MERGED_TREE}}`
-- Release tag: `v1.0.0`
+- Release tag: `{{FOCUS_RELEASE}}`
 - Annotated tag object: `{{TAG_OBJECT}}`
 - Expected attestation path: `{{ATTESTATION_PATH}}`
 - Expected detached attestation SHA-256: `{{ATTESTATION_SHA256}}`
@@ -63,11 +63,11 @@ is mandatory.
 
 ### Annotated tag
 
-- Confirm `v1.0.0` is an annotated tag, not a lightweight tag.
+- Confirm `{{FOCUS_RELEASE}}` is an annotated tag, not a lightweight tag.
 - Confirm its tag-object identifier equals `{{TAG_OBJECT}}`.
 - Peel it to a commit and confirm the peeled tree equals
   `{{FINAL_CANDIDATE_TREE}}`.
-- Confirm the tag message identifies Focus v1.0.0 and includes exactly:
+- Confirm the tag message identifies Focus {{FOCUS_RELEASE}} and includes exactly:
   `Attestation-SHA256: {{ATTESTATION_SHA256}}`.
 - Confirm the tag has not moved during verification.
 
@@ -113,7 +113,7 @@ is mandatory.
 
 - Confirm the release is public, non-draft, and non-prerelease unless the
   verified plan says otherwise.
-- Confirm the tag and release title identify v1.0.0.
+- Confirm the tag and release title identify {{FOCUS_RELEASE}}.
 - Confirm no first-party page claims Focus was added to Commons unless a
   separate Commons release has actually done so.
 - Confirm the public repository contains no private source history, credentials,
@@ -149,6 +149,6 @@ tree with:
 9. findings and limitations; and
 10. verdict.
 
-Do not place this result in the v1.0.0 repository tree. Do not name tools,
+Do not place this result in the {{FOCUS_RELEASE}} repository tree. Do not name tools,
 models, providers, private paths, source history, or hidden reasoning in public
 bytes.

@@ -21,9 +21,9 @@ Lower-authority material cannot silently redefine higher-authority material.
 Brad Groux is the founding steward and release authority.
 
 Focus adopts [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0) at
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0) at
 commit
-[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031)
+[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8)
 by exact reference. If Commons and local guidance appear to conflict, stop and
 surface the conflict. Do not silently copy, reinterpret, or change Commons.
 
@@ -53,7 +53,7 @@ surface the conflict. Do not silently copy, reinterpret, or change Commons.
   continuity as valid outcomes.
 - Do not add application code, schemas, provider-specific connector designs,
   automation, CI, runtime behavior, technical conformance, certification, or
-  outcome guarantees to the initial documentation release.
+  outcome guarantees to a documentation release.
 
 ## Documentation
 
@@ -79,8 +79,9 @@ surface the conflict. Do not silently copy, reinterpret, or change Commons.
 
 - Independent reviewers receive only an exact clean content-candidate tree,
   the assigned prompt, and the exact Commons release.
-- Generated review records and the disposition must be absent from that clean
-  tree.
+- Generated review records and the disposition for the release under review
+  must be absent from that clean tree. Records from an earlier immutable
+  release remain as public project history and cannot approve the new target.
 - Review reports may be added only at the paths predeclared in
   [`project/reviews/README.md`](project/reviews/README.md).
 - Any change outside the review-record allowlist creates a new content

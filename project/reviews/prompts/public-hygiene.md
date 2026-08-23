@@ -19,17 +19,17 @@ that would make the package unsafe or misleading to publish.
 ## Preflight and stop conditions
 
 Verify exact commit, tree, clean state, complete file inventory, absence of all
-predeclared generated review records, report-path absence, and exact Commons
+target-release generated review records, report-path absence, and exact Commons
 release availability. Stop with `NOT REVIEWED` if the target differs, changes
-during review, exposes prior findings, or cannot be inspected within the source
-boundary. Do not modify the candidate.
+during review, exposes current-release review findings, or cannot be inspected
+within the source boundary. Do not modify the candidate.
 
 ## Permitted evidence
 
 Use only the exact candidate, this prompt, and Commons
 `{{COMMONS_RELEASE}}` at `{{COMMONS_COMMIT}}`. Do not use private research,
-repository history, prior conversations, memory, other reviews, source
-inspiration, outside search, or private pilot material.
+repository history, prior conversations, memory, other current-release reviews,
+source inspiration, outside search, or private pilot material.
 
 ## Review task
 
@@ -85,11 +85,13 @@ Confirm that:
 - the owner-pilot record remains planned, not started, or incomplete unless
   actual evidence supports a different result, and an empty protocol is not
   presented as outcome evidence;
-- review records remain absent from the clean candidate;
+- target-release generated review records remain absent from the clean
+  candidate, while immutable earlier-release records remain historical evidence;
 - examples are marked fictional, illustrative, and non-authoritative;
 - no example outcome is presented as proof;
 - prompts request publication-safe role labels rather than tool identity;
-- Commons adoption does not claim current ecosystem membership; and
+- Commons recognition is not presented as inheritance, transferred authority,
+  or automatic adoption; and
 - future application language remains non-authoritative and does not claim an
   implementation exists.
 
@@ -121,7 +123,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 public-hygiene review`
+1. `# Focus {{FOCUS_RELEASE}} public-hygiene review`
 2. Metadata: role, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Complete file inventory inspected.

@@ -1,0 +1,72 @@
+name: Focus change proposal
+description: Propose an editorial, material, example, evidence, or repository change.
+title: "[Proposal]: "
+body:
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Change type
+      description: Classify the proposal using CONTRIBUTING.md and GOVERNANCE.md.
+      options:
+        - Editorial correction
+        - Material framework change
+        - Example or guidance change
+        - Pilot or review record
+        - Repository stewardship
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: State the concrete problem without including private context or source-inspiration history.
+      placeholder: What is wrong, missing, unclear, or difficult to apply?
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Affected authority and canonical statements
+      description: Identify the charter, ADR, canonical document, governance rule, example, or repository surface affected.
+      placeholder: List exact public files, headings, or statements.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and limits
+      description: Describe public, publication-safe evidence and what it cannot establish.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Include leaving the current behavior unchanged when relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences and compatibility
+      description: Cover migration, privacy, authority, accessibility, misuse, and adopted Commons compatibility as applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: unresolved
+    attributes:
+      label: Unresolved questions or dissent
+      description: Record uncertainty or write None.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Submission checks
+      options:
+        - label: I read the charter, CONTEXT.md, CONTRIBUTING.md, and GOVERNANCE.md.
+          required: true
+        - label: This proposal excludes private records, credentials, confidential work, personal Journal material, and source-inspiration history.
+          required: true
+        - label: I have not presented an example, pilot observation, review finding, or implementation behavior as framework authority.
+          required: true

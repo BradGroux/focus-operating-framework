@@ -7,6 +7,8 @@ and keeps implementations subordinate to it.
 
 ## Language
 
+### Framework identity and evidence
+
 **Focus Operating Framework**:
 An independent, tool-agnostic individual operating framework that combines
 physical and digital practice, supports unassisted and AI-assisted paths, and
@@ -51,6 +53,8 @@ _Avoid_: Commons membership, inheritance, parent framework
 The ability to recover why chosen work matters, where it stands, and the next
 chosen step after an interruption or context switch with less restart effort.
 _Avoid_: Uninterrupted attention, productivity score, activity volume
+
+### Physical practice, records, and authority
 
 **Physical-digital round trip**:
 An optional practice that moves selected physical thinking into a reviewed
@@ -133,6 +137,8 @@ references in usable forms, disconnect supporting tools, and continue the
 practice without a single provider.
 _Avoid_: Data dump, vendor migration promise
 
+### Individual practice and privacy
+
 **Selective admission**:
 The intentional inclusion of only the material needed for a stated Focus
 purpose. Admission is optional, proportionate, and does not imply permanent
@@ -208,6 +214,8 @@ promotions, and Action Receipts for one individual. It is a derived view, not a
 record of authority.
 _Avoid_: Required dashboard, everything app, team command center
 
+### Assistance and external action
+
 **Unassisted practice**:
 A complete Focus practice performed by the individual without AI assistance.
 _Avoid_: Manual fallback, reduced mode
@@ -247,6 +255,8 @@ _Avoid_: Sync, suggestion, inferred intent
 Evidence of the exact target, requested external mutation, result, and
 destination readback or visible failure.
 _Avoid_: Success message, activity log entry, assumed completion
+
+### Review and framework language
 
 **Review record**:
 A publication-safe account of a review's exact target, scope, findings,

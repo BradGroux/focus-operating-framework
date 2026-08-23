@@ -18,18 +18,19 @@ knowledge.
 
 ## Preflight and stop conditions
 
-Verify exact commit, exact tree, clean state, absence of predeclared generated
+Verify exact commit, exact tree, clean state, absence of target-release generated
 review records, report-path absence, and availability of the exact adopted
 Commons release. Stop with `NOT REVIEWED` if any input is wrong, the target
-changes, another review is visible, or the evidence boundary fails. Do not
-modify the candidate.
+changes, another current-release review is visible, or the evidence boundary
+fails. Do not modify the candidate.
 
 ## Permitted evidence
 
 Use only the exact candidate, this prompt, and Commons
 `{{COMMONS_RELEASE}}` at `{{COMMONS_COMMIT}}` for the stated adoption boundary.
-Do not use private research, prior conversations, memory, other reviews,
-external style guides, implementation assumptions, or source inspiration.
+Do not use private research, prior conversations, memory, other current-release
+reviews, external style guides, implementation assumptions, or source
+inspiration.
 
 ## Review task
 
@@ -133,7 +134,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 accessibility and plain-language review`
+1. `# Focus {{FOCUS_RELEASE}} accessibility and plain-language review`
 2. Metadata: role, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Files inspected.
