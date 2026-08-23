@@ -79,8 +79,9 @@ surface the conflict. Do not silently copy, reinterpret, or change Commons.
 
 - Independent reviewers receive only an exact clean content-candidate tree,
   the assigned prompt, and the exact Commons release.
-- Generated review records and the disposition must be absent from that clean
-  tree.
+- Generated review records and the disposition for the release under review
+  must be absent from that clean tree. Records from an earlier immutable
+  release remain as public project history and cannot approve the new target.
 - Review reports may be added only at the paths predeclared in
   [`project/reviews/README.md`](project/reviews/README.md).
 - Any change outside the review-record allowlist creates a new content
