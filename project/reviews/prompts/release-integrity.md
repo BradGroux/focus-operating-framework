@@ -57,10 +57,14 @@ Verify presence and readable content for:
 - `GOVERNANCE.md`
 - `LICENSE`
 - `SECURITY.md`
+- `VERSION`
+- `.github/ISSUE_TEMPLATE/focus-change.yml`
+- `.github/PULL_REQUEST_TEMPLATE.md`
 - all seven canonical files under `framework/`
 - `examples/README.md` and all seven numbered examples
 - all accepted ADRs under `docs/adr/`
 - `project/specifications/{{FOCUS_RELEASE}}.md`
+- `project/releases/{{FOCUS_RELEASE}}.md`
 - `project/pilots/README.md`
 - `project/pilots/v1.0.0-owner-pilot.md` as retained historical evidence;
 - `project/reviews/README.md`
@@ -89,7 +93,8 @@ Verify:
 Verify:
 
 - the framework name, author, version, status, and license agree across README,
-  charter, changelog, citation, governance, specification, and license;
+  charter, changelog, citation, governance, `VERSION`, specification, target
+  release record, and license;
 - citation metadata is structurally valid, names Brad Groux, identifies the
   target release and intended first-party repository, and either omits a release
   date or uses the fixed publication date;
