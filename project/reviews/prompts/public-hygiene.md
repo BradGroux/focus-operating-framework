@@ -85,7 +85,8 @@ Confirm that:
 - the owner-pilot record remains planned, not started, or incomplete unless
   actual evidence supports a different result, and an empty protocol is not
   presented as outcome evidence;
-- review records remain absent from the clean candidate;
+- target-release generated review records remain absent from the clean
+  candidate, while immutable earlier-release records remain historical evidence;
 - examples are marked fictional, illustrative, and non-authoritative;
 - no example outcome is presented as proof;
 - prompts request publication-safe role labels rather than tool identity;

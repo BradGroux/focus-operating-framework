@@ -104,11 +104,12 @@ Verify:
 
 ### Commons pin
 
-Verify every Commons reference uses `{{COMMONS_RELEASE}}` and
-`{{COMMONS_COMMIT}}`. Confirm the exact annotated tag resolves to that commit at
-review time. Confirm Focus independence, separate governance, the sequence from
-v1.0.0 publication to later Commons recognition, and immutable historical
-release records are stated without contradiction.
+Verify every current-adoption Commons reference uses `{{COMMONS_RELEASE}}` and
+`{{COMMONS_COMMIT}}`, while immutable historical release records retain their
+exact earlier pins. Confirm the current annotated tag resolves to the populated
+commit at review time. Confirm Focus independence, separate governance, the
+sequence from v1.0.0 publication to later Commons recognition, and immutable
+historical release records are stated without contradiction.
 
 ### Pilot status and evidence boundary
 

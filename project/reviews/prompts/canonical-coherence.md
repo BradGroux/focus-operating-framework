@@ -99,12 +99,13 @@ status claims that conflict with the unreleased candidate state.
 
 ### Commons boundary
 
-Verify that every Commons reference uses `{{COMMONS_RELEASE}}` and
-`{{COMMONS_COMMIT}}`, that Focus adopts by exact reference while remaining
-independent, and that any Commons recognition is not presented as inheritance
-or transferred authority. Confirm that Commons material is not copied into
-Focus as parent doctrine and that either repository's changes require a
-separate local decision.
+Verify that every current-adoption Commons reference uses
+`{{COMMONS_RELEASE}}` and `{{COMMONS_COMMIT}}`, while immutable historical
+release records retain their exact earlier pins. Confirm that Focus adopts by
+exact reference while remaining independent and that any Commons recognition
+is not presented as inheritance or transferred authority. Confirm that Commons
+material is not copied into Focus as parent doctrine and that either
+repository's changes require a separate local decision.
 
 ### Link and structure support
 
