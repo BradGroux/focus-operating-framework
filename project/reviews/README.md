@@ -7,13 +7,17 @@ exact tree. They do not define the framework or prove general effectiveness.
 
 ## Clean content-candidate state
 
-Generated v1.0.0 independent review records and the disposition are absent from
-the clean content candidate by design. They appear only in a later final release
-tree at the seven predeclared allowlisted paths after valid exact-candidate
-reviews. Their absence in a content candidate is not missing documentation;
-their presence there would violate reviewer isolation.
+Generated records for the target release are absent from its clean content
+candidate by design. They appear only in the final release tree at seven
+predeclared allowlisted paths after valid exact-candidate reviews. Their absence
+in that candidate is not missing documentation; their presence there would
+violate reviewer isolation.
 
-The reusable [review prompts](prompts/README.md) are part of the content package
+Review records from an earlier immutable release remain in later content
+candidates as public project history. They do not approve the new target and
+must not be treated as another current-release reviewer's findings.
+
+The reusable [review prompts](prompts/README.md) are part of the content package.
 
 ## Required independent reviews
 
@@ -31,8 +35,7 @@ independent review.
 
 ## Predeclared review-record allowlist
 
-Only these generated records may be added after the clean content candidate is
-reviewed:
+The v1.0.0 generated records remain historical release evidence at these paths:
 
 - `project/reviews/v1.0.0-practical-application-review.md`
 - `project/reviews/v1.0.0-adversarial-misuse-review.md`
@@ -41,6 +44,17 @@ reviewed:
 - `project/reviews/v1.0.0-public-hygiene-review.md`
 - `project/reviews/v1.0.0-release-integrity-review.md`
 - `project/reviews/v1.0.0-review-disposition.md`
+
+Only these v1.1.0 generated records may be added after the v1.1.0 clean content
+candidate is reviewed:
+
+- `project/reviews/v1.1.0-practical-application-review.md`
+- `project/reviews/v1.1.0-adversarial-misuse-review.md`
+- `project/reviews/v1.1.0-canonical-coherence-review.md`
+- `project/reviews/v1.1.0-accessibility-and-plain-language-review.md`
+- `project/reviews/v1.1.0-public-hygiene-review.md`
+- `project/reviews/v1.1.0-release-integrity-review.md`
+- `project/reviews/v1.1.0-review-disposition.md`
 
 This README and every file under `project/reviews/prompts/` are content files,
 not generated review records. They are excluded from the allowlist and must be
@@ -55,42 +69,43 @@ below.
 Each independent reviewer receives only:
 
 - a clean checkout of the exact content-candidate commit and tree, with all
-  allowlisted generated review records absent;
+  target-release allowlisted generated review records absent;
 - the assigned prompt; and
-- the exact adopted Commons v1.0.0 release and commit.
+- the exact Commons release and commit adopted by the target release.
 
 The reviewer must not receive or use:
 
 - private research or source-inspiration history;
 - prior conversations or memory;
 - working branches or uncommitted changes;
-- another reviewer's findings or report;
+- another current-release reviewer's findings or report;
 - a disposition draft;
 - pilot source content beyond the sanitized record in the candidate; or
 - repository history outside the exact target unless the assigned prompt
   explicitly requires comparison with a named candidate.
 
-If the exact commit or tree does not match, an allowlisted report already exists
-in the review tree, required evidence is missing, or the source boundary cannot
-be maintained, the reviewer stops with `NOT REVIEWED`.
+If the exact commit or tree does not match, a target-release report already
+exists in the review tree, required evidence is missing, or the source boundary
+cannot be maintained, the reviewer stops with `NOT REVIEWED`.
 
 ## Review sequence
 
 ### 1. Complete content and pilot protocol
 
-Complete all intended v1.0.0 content, including the truthful owner-pilot
-protocol and current status. A planned, not-started, incomplete, reshaped, or
-stopped pilot is valid when labeled accurately and supports no outcome claim.
-Pilot completion is not required before the content candidate is prepared.
+Complete all intended target-release content, including truthful status for any
+pilot record. A planned, not-started, incomplete, reshaped, or stopped pilot is
+valid when labeled accurately and supports no outcome claim. Pilot completion
+is not required before the content candidate is prepared.
 
 ### 2. Finalize publication metadata
 
 Before freezing the content candidate, replace phase-bound working-copy language
 with publication-valid, phase-neutral metadata. The changelog identifies
-v1.0.0 content without claiming that a branch is published. The charter is
-accepted for v1.0.0. Citation metadata may omit a release date until it is
-fixed; if included, that date must match the planned publication. No content
-file may permanently claim that no review, tag, or release exists.
+target-release content without claiming that a branch is published. The
+charter and citation metadata identify the target version. Citation metadata
+may omit a release date until it is fixed; if included, that date must match the
+planned publication. No content file may permanently claim that no review, tag,
+or release exists.
 
 Any later change to those content paths creates a new content candidate and
 requires affected independent reviews to rerun.
@@ -163,10 +178,11 @@ digest inside the attestation it authenticates.
 ### 9. Merge, tag, release, and read back
 
 The merged tree must exactly match the verified final-release-candidate tree.
-The annotated immutable `v1.0.0` tag message carries the detached attestation
-digest. The public release metadata carries the byte-identical complete
-attestation. Post-merge verification reads back the merged tree, tag, release,
-authorship, links, file inventory, review-record bytes, attestation, and digest.
+The annotated immutable target-version tag message carries the detached
+attestation digest. The public release metadata carries the byte-identical
+complete attestation. Post-merge verification reads back the merged tree, tag,
+release, authorship, links, file inventory, review-record bytes, attestation,
+and digest.
 
 ## Severity model
 

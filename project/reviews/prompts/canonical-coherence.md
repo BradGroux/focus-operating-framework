@@ -89,7 +89,7 @@ Compare the inventory against:
 - all accepted ADRs;
 - all seven examples and the examples index;
 - the owner-pilot protocol and record;
-- the v1.0.0 specification;
+- the {{FOCUS_RELEASE}} specification;
 - review workflow and every prompt;
 - changelog, citation, license, and release status.
 
@@ -101,9 +101,10 @@ status claims that conflict with the unreleased candidate state.
 
 Verify that every Commons reference uses `{{COMMONS_RELEASE}}` and
 `{{COMMONS_COMMIT}}`, that Focus adopts by exact reference while remaining
-independent, and that the package does not claim current ecosystem membership.
-Confirm that Commons material is not copied into Focus as parent doctrine and
-that either repository's changes require a separate local decision.
+independent, and that any Commons recognition is not presented as inheritance
+or transferred authority. Confirm that Commons material is not copied into
+Focus as parent doctrine and that either repository's changes require a
+separate local decision.
 
 ### Link and structure support
 
@@ -127,7 +128,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 canonical coherence review`
+1. `# Focus {{FOCUS_RELEASE}} canonical coherence review`
 2. Metadata: role, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Files inspected.

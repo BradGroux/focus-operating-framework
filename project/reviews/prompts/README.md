@@ -1,8 +1,8 @@
 # Review prompts
 
-These prompts are reusable, tool-neutral instructions for the Focus v1.0.0
-release process. They are written to be copied into a clean reviewing task after
-replacing every placeholder.
+These prompts are reusable, tool-neutral instructions for an exact Focus
+release process. They are written to be copied into a clean reviewing task
+after replacing every placeholder.
 
 ## Prompt inventory
 
@@ -31,11 +31,12 @@ Replace every applicable placeholder before giving a prompt to a reviewer:
 
 | Placeholder | Value |
 | --- | --- |
+| `{{FOCUS_RELEASE}}` | Exact target Focus tag, such as `v1.1.0` |
 | `{{CONTENT_CANDIDATE_COMMIT}}` | Full commit identifier for the clean content candidate |
 | `{{CONTENT_CANDIDATE_TREE}}` | Full tree identifier for the clean content candidate |
 | `{{CLEAN_TREE_PATH}}` | Read-only or detached path containing exactly that tree |
-| `{{COMMONS_RELEASE}}` | `v1.0.0` for the initial release |
-| `{{COMMONS_COMMIT}}` | `a0f0d384e9010a65d1a21a324b4c912433d5e031` for the initial release |
+| `{{COMMONS_RELEASE}}` | Exact Commons tag adopted by the target Focus release |
+| `{{COMMONS_COMMIT}}` | Full peeled commit for that Commons tag |
 | `{{REPORT_PATH}}` | Exact predeclared output path for the assigned review |
 | `{{CORRECTION_LEDGER_PATH}}` | Out-of-tree publication-safe ledger of findings, corrections, and reruns, or `NONE` |
 | `{{SUPERSEDED_REPORT_SOURCE_DIRECTORY}}` | Out-of-tree publication-safe superseded report bytes, or `NONE` |
@@ -62,15 +63,17 @@ For each independent review:
    private research, or other review report.
 2. Provide only the populated assigned prompt, the exact clean content-candidate
    tree, and the exact adopted Commons release.
-3. Ensure all predeclared generated review-record paths are absent from the tree.
+3. Ensure all target-release generated review-record paths are absent from the
+   tree. Historical records from immutable earlier releases may remain.
 4. Require the reviewer to verify commit, tree, cleanliness, source boundary,
    and report-path absence before reading content.
 5. Have the reviewer write the report outside the candidate tree first.
 6. Inspect the report for publication safety before placing it at the allowlisted
    destination.
 
-Independent reviews should run without access to one another. Do not ask one
-reviewer to reconcile another reviewer's findings.
+Independent reviews should run without access to one another's current-release
+work. Do not ask one reviewer to reconcile another current-release reviewer's
+findings.
 
 ## Common severity model
 

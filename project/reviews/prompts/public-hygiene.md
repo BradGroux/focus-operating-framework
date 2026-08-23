@@ -89,7 +89,8 @@ Confirm that:
 - examples are marked fictional, illustrative, and non-authoritative;
 - no example outcome is presented as proof;
 - prompts request publication-safe role labels rather than tool identity;
-- Commons adoption does not claim current ecosystem membership; and
+- Commons recognition is not presented as inheritance, transferred authority,
+  or automatic adoption; and
 - future application language remains non-authoritative and does not claim an
   implementation exists.
 
@@ -121,7 +122,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 public-hygiene review`
+1. `# Focus {{FOCUS_RELEASE}} public-hygiene review`
 2. Metadata: role, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Complete file inventory inspected.

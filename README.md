@@ -80,15 +80,15 @@ Transition Check-In can be as small as:
 ## Commons adoption and independence
 
 Focus adopts [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0),
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0),
 whose annotated tag peels to
-[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031).
+[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
 
 Focus retains its own purpose, method, terminology, examples, governance, and
 release authority. A Commons change does not automatically change Focus, and a
-Focus change does not amend Commons. The initial Focus release does not claim
-ecosystem membership; any Commons recognition follows through a separate
-Commons change after Focus is published.
+Focus change does not amend Commons. Commons v1.1.0 recognizes Focus as an
+independent ecosystem product while leaving Focus purpose, method, terminology,
+evidence, releases, licensing, and implementation choices under Focus authority.
 
 ## Repository map
 
@@ -99,20 +99,22 @@ Commons change after Focus is published.
 | `examples/` | Show fictional applications | Illustrative only |
 | `docs/adr/` | Record accepted decisions | Accepted rationale and constraints |
 | `project/specifications/` | Record product requirements | Delivery specification |
+| `project/releases/` | Record phase-neutral release content and limits | Release documentation, not publication proof |
 | [`project/pilots/`](project/pilots/README.md) | Record bounded owner-pilot evidence | Practice evidence, not doctrine |
 | `project/reviews/` | Define and retain release reviews | Review evidence, not doctrine |
 | `GOVERNANCE.md` | Control change and release | Repository governance |
 
 ## Status and evidence limits
 
-These files define the v1.0.0 documentation baseline. A copy or branch containing
-them is not evidence of publication. Release status is established only by an
-immutable annotated `v1.0.0` tag and public release whose merged tree,
-attestation, review records, and authorship pass the gates in the
-[v1.0.0 specification](project/specifications/v1.0.0.md).
+The current documented version is v1.1.0. Its content and limits are recorded
+in the [v1.1.0 release document](project/releases/v1.1.0.md). A copy or branch
+containing these files is not evidence of publication. Release status is
+established only by an immutable annotated version tag and public release whose
+merged tree, attestation, review records, and authorship pass the gates in the
+applicable [release specification](project/specifications/v1.1.0.md).
 
 The examples are fictional. The owner-pilot protocol is optional evidence work,
-not a v1.0.0 release prerequisite. Any completed result is
+not a release prerequisite. Any completed result is
 single-practitioner evidence. Documentation review can test clarity, internal
 coherence, misuse resistance, and publication hygiene; it cannot prove focus,
 output, wellbeing, safety, or general effectiveness.

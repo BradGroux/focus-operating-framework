@@ -133,7 +133,7 @@ Use the common severity model.
 
 Write a publication-safe report outside the candidate tree with:
 
-1. `# Focus v1.0.0 accessibility and plain-language review`
+1. `# Focus {{FOCUS_RELEASE}} accessibility and plain-language review`
 2. Metadata: role, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Files inspected.

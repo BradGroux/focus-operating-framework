@@ -15,12 +15,12 @@ reports are complete.
 - Content-candidate commit: `{{CONTENT_CANDIDATE_COMMIT}}`
 - Content-candidate tree: `{{CONTENT_CANDIDATE_TREE}}`
 - Exact candidate path: `{{CLEAN_TREE_PATH}}`
-- Practical report path: `project/reviews/v1.0.0-practical-application-review.md`
-- Adversarial report path: `project/reviews/v1.0.0-adversarial-misuse-review.md`
-- Coherence report path: `project/reviews/v1.0.0-canonical-coherence-review.md`
-- Accessibility report path: `project/reviews/v1.0.0-accessibility-and-plain-language-review.md`
-- Public-hygiene report path: `project/reviews/v1.0.0-public-hygiene-review.md`
-- Release-integrity report path: `project/reviews/v1.0.0-release-integrity-review.md`
+- Practical report path: `project/reviews/{{FOCUS_RELEASE}}-practical-application-review.md`
+- Adversarial report path: `project/reviews/{{FOCUS_RELEASE}}-adversarial-misuse-review.md`
+- Coherence report path: `project/reviews/{{FOCUS_RELEASE}}-canonical-coherence-review.md`
+- Accessibility report path: `project/reviews/{{FOCUS_RELEASE}}-accessibility-and-plain-language-review.md`
+- Public-hygiene report path: `project/reviews/{{FOCUS_RELEASE}}-public-hygiene-review.md`
+- Release-integrity report path: `project/reviews/{{FOCUS_RELEASE}}-release-integrity-review.md`
 - Publication-safe correction ledger: `{{CORRECTION_LEDGER_PATH}}`
 - Publication-safe superseded report sources: `{{SUPERSEDED_REPORT_SOURCE_DIRECTORY}}`
 - Approved disposition path: `{{REPORT_PATH}}`
@@ -58,7 +58,7 @@ Use only:
 - the six final independent reports listed above;
 - publication-safe superseded reports retained outside the repository tree;
 - the complete publication-safe correction and rerun ledger;
-- the v1.0.0 specification and review workflow within that tree; and
+- the {{FOCUS_RELEASE}} specification and review workflow within that tree; and
 - documented correction and rerun evidence tied to the exact target.
 
 Do not use private research, prior conversations, memory, private reviewer
@@ -134,7 +134,7 @@ claim of effectiveness.
 
 Write a publication-safe disposition outside the candidate tree with:
 
-1. `# Focus v1.0.0 review disposition`
+1. `# Focus {{FOCUS_RELEASE}} review disposition`
 2. Metadata: role, exact content-candidate commit and tree, disposition date,
    verdict.
 3. Source boundary and inputs.

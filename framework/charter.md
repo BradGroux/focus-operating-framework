@@ -1,8 +1,8 @@
 # Focus Operating Framework charter
 
-- **Status:** Accepted v1.0.0
+- **Status:** Accepted v1.1.0
 - **Founding steward:** Brad Groux
-- **Effective date:** 2026-08-04
+- **Effective date:** 2026-08-22
 
 ## Definition
 
@@ -174,19 +174,19 @@ not approve a particular action.
 ## Commons adoption and independence
 
 Focus adopts [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0)
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0)
 exactly. The adopted annotated tag peels to
-[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031).
+[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
 
 Commons supplies shared ecosystem principles and boundaries. Focus owns its
 local purpose, audience, commitments, concerns, moves, practices, terminology,
 examples, governance, and releases. A change in either repository has no
 automatic authority over the other.
 
-The initial Focus release may be published before Commons names it as an
-ecosystem product. That publication order does not weaken the exact adoption or
-claim current membership. Any later Commons recognition follows Commons
-governance in a separate release.
+Commons v1.1.0 recognizes Focus as an independent ecosystem product with equal
+provenance and importance. That recognition does not transfer authority:
+Focus remains independently governed and owns its purpose, audience, method,
+terminology, evidence, releases, licensing, and implementation choices.
 
 ## Implementations
 

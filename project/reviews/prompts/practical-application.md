@@ -21,7 +21,7 @@ Before reading framework content, verify that:
 
 1. the clean tree resolves to the exact commit and tree above;
 2. the tree is clean and contains no uncommitted or extra files;
-3. every generated review-record path predeclared in
+3. every target-release generated review-record path predeclared in
    `project/reviews/README.md` is absent;
 4. the report destination is absent;
 5. the assigned prompt is the only review prompt supplied; and
@@ -42,9 +42,9 @@ Use only:
   `{{COMMONS_COMMIT}}` for adoption-boundary checks.
 
 Do not use private research, repository history, prior conversations, memory,
-working branches, other reviewers' findings, a disposition draft, or outside
-productivity guidance. Do not infer application behavior that the documents do
-not state.
+working branches, other current-release reviewers' findings, a disposition
+draft, or outside productivity guidance. Do not infer application behavior that
+the documents do not state.
 
 ## Review task
 
@@ -132,7 +132,7 @@ Use the common severity model in `project/reviews/prompts/README.md`.
 
 Write a publication-safe report outside the candidate tree with this structure:
 
-1. `# Focus v1.0.0 practical application review`
+1. `# Focus {{FOCUS_RELEASE}} practical application review`
 2. Metadata: role label, exact commit, exact tree, review date, verdict.
 3. Source boundary and exclusions.
 4. Files inspected.
