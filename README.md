@@ -34,6 +34,13 @@ creating requirements or claiming general effectiveness.
 
 ## The practice in one minute
 
+Start with one question: **What, if anything, is manageable now?** Continuing,
+resting, leaving the situation unchanged or abandoning a private plan are valid.
+A mark or existing bookmark can be enough; no new record is required. If context
+is lost or a routine was missed, use the
+[recovery guidance](framework/practice-guide.md#return-without-catching-up).
+The vocabulary and optional moves below are available when they help.
+
 When returning to something or deciding what deserves attention:
 
 A **derivative** is a representation made from a source. A **record of
@@ -80,13 +87,13 @@ Transition Check-In can be as small as:
 ## Commons adoption and independence
 
 Focus adopts [Open Framework Commons
-v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0),
+v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05),
 whose annotated tag peels to
-[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
+[`8868a248457dd7b663563beb243c5ebcbb8ac360`](https://github.com/BradGroux/open-framework-commons/commit/8868a248457dd7b663563beb243c5ebcbb8ac360).
 
 Focus retains its own purpose, method, terminology, examples, governance, and
 release authority. A Commons change does not automatically change Focus, and a
-Focus change does not amend Commons. Commons v1.1.0 recognizes Focus as an
+Focus change does not amend Commons. Commons v2026.09.05 recognizes Focus as an
 independent ecosystem product while leaving Focus purpose, method, terminology,
 evidence, releases, licensing, and implementation choices under Focus authority.
 
@@ -106,12 +113,12 @@ evidence, releases, licensing, and implementation choices under Focus authority.
 
 ## Status and evidence limits
 
-The current documented version is v1.1.0. Its content and limits are recorded
-in the [v1.1.0 release document](project/releases/v1.1.0.md). A copy or branch
+The current documented version is v2026.09.05. Its content and limits are recorded
+in the [v2026.09.05 release document](project/releases/v2026.09.05.md). A copy or branch
 containing these files is not evidence of publication. Release status is
 established only by an immutable annotated version tag and public release whose
 merged tree, attestation, review records, and authorship pass the gates in the
-applicable [release specification](project/specifications/v1.1.0.md).
+applicable [release specification](project/specifications/v2026.09.05.md).
 
 The examples are fictional. The owner-pilot protocol is optional evidence work,
 not a release prerequisite. Any completed result is

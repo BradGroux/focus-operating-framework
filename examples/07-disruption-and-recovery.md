@@ -103,6 +103,18 @@ They choose a smaller future pattern: a paper continuity cue, direct links to
 authoritative records, and a bounded weekly Focus Review only when useful. They
 do not rebuild Mission Control immediately.
 
+## Alternative: no cue and no workable block
+
+In a fictional variation, the individual returns after missing several intended
+reviews. The card is lost, and repeated interruptions leave no ninety-minute
+block. They do not reconstruct the missed reviews. They inspect only the current
+work deadline, ask through the ordinary work channel whether scope can be
+reduced, and keep the existing deadline unchanged until a response confirms it.
+They postpone the private travel plan and rest without recording a Check-In.
+The request remains unresolved; no catch-up, new dashboard or successful
+renegotiation is implied. If even that inspection is unavailable, they pause the
+uncertain work decision and preserve its unknown status.
+
 ## Provenance and authority
 
 - The shared work record controls the deadline.

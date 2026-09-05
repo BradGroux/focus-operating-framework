@@ -45,8 +45,40 @@ answer:
 4. What uncertainty, dependency, or stopping condition must remain visible?
 5. Where is the controlling record for anything consequential?
 
+These are prompts, not five required fields. A familiar location or existing
+record may already supply enough context. No cue is required.
+
 The cue may be a paper mark, a bookmark, a short digital note, a deliberate
 spoken source, or a bounded projection. It need not become permanent.
+
+## Return without catching up
+
+If no cue exists, begin with what is available now. Check only the controlling
+record needed for a consequential decision. If it cannot be recovered, leave
+that decision uncertain and pause it; unrelated safe work or rest can continue.
+Do not reconstruct missing days, backfill Check-Ins or clear old Review Items
+before beginning again. A missed routine creates no Focus debt.
+
+Capacity may change within a day. Consider available time, energy, access needs
+and external demands as they are now, without scoring them. Choose one smaller
+step, ask for help, rest, defer or stop. Rest needs no productivity justification.
+Use an existing bookmark, a visible mark, an accessible digital note or no new
+record. Writing, speaking, reading a long checklist and maintaining a dashboard
+are not admission tests. Choose an ordinary surface you can use; assistance is
+optional and does not require disclosing private context.
+
+Fragmented days need no uninterrupted block. If preserving a cue costs more than
+it helps, omit it. An abandoned private plan need not retain a return path or a
+reason for stopping. Preserve only records still needed for an actual purpose;
+releasing an intention does not authorize destroying someone else's records.
+
+A personal decision to stop does not cancel an external commitment. Where a
+shared deadline or dependency remains, check its controlling record and choose
+whether to seek a narrower scope, changed date or help through the existing
+channel. Keep the original commitment and any requested change distinct until
+its authority confirms the change. If communication is unavailable, leave its
+status unresolved rather than claim cancellation or completion. Focus does not
+promise freedom from external constraints or prescribe professional advice.
 
 ## Apply the smallest useful moves
 
@@ -137,6 +169,10 @@ When a shared record needs an update:
    connector; and
 6. retain an Action Receipt with result and destination readback or visible
    failure.
+
+An existing destination confirmation or history can serve as the Action Receipt
+when it identifies the request, result and readback; no duplicate log is required.
+Unknown results stay unknown, and do not authorize a retry.
 
 A shared promotion does not authorize continuous synchronization or access to
 the private practice.

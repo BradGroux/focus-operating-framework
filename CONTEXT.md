@@ -51,7 +51,8 @@ _Avoid_: Commons membership, inheritance, parent framework
 
 **Focus continuity**:
 The ability to recover why chosen work matters, where it stands, and the next
-chosen step after an interruption or context switch with less restart effort.
+chosen step after an interruption or context switch. Less restart effort is an intended
+benefit, not an established effect or a requirement for a valid episode.
 _Avoid_: Uninterrupted attention, productivity score, activity volume
 
 ### Physical practice, records, and authority
@@ -253,7 +254,9 @@ _Avoid_: Sync, suggestion, inferred intent
 
 **Action Receipt**:
 Evidence of the exact target, requested external mutation, result, and
-destination readback or visible failure.
+destination readback or visible failure. Existing destination evidence can
+serve this purpose without a duplicate log when the exact action and outcome
+remain inspectable. Unknown results remain unknown.
 _Avoid_: Success message, activity log entry, assumed completion
 
 ### Review and framework language

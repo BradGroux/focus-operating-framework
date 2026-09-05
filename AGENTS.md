@@ -21,9 +21,9 @@ Lower-authority material cannot silently redefine higher-authority material.
 Brad Groux is the founding steward and release authority.
 
 Focus adopts [Open Framework Commons
-v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0) at
+v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05) at
 commit
-[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8)
+[`8868a248457dd7b663563beb243c5ebcbb8ac360`](https://github.com/BradGroux/open-framework-commons/commit/8868a248457dd7b663563beb243c5ebcbb8ac360)
 by exact reference. If Commons and local guidance appear to conflict, stop and
 surface the conflict. Do not silently copy, reinterpret, or change Commons.
 

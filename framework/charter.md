@@ -1,8 +1,8 @@
 # Focus Operating Framework charter
 
-- **Status:** Accepted v1.1.0
+- **Status:** Accepted v2026.09.05
 - **Founding steward:** Brad Groux
-- **Effective date:** 2026-08-22
+- **Effective date:** 2026-09-05
 
 ## Definition
 
@@ -174,16 +174,16 @@ not approve a particular action.
 ## Commons adoption and independence
 
 Focus adopts [Open Framework Commons
-v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0)
+v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05)
 exactly. The adopted annotated tag peels to
-[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
+[`8868a248457dd7b663563beb243c5ebcbb8ac360`](https://github.com/BradGroux/open-framework-commons/commit/8868a248457dd7b663563beb243c5ebcbb8ac360).
 
 Commons supplies shared ecosystem principles and boundaries. Focus owns its
 local purpose, audience, commitments, concerns, moves, practices, terminology,
 examples, governance, and releases. A change in either repository has no
 automatic authority over the other.
 
-Commons v1.1.0 recognizes Focus as an independent ecosystem product with equal
+The adopted Commons edition recognizes Focus as an independent ecosystem product with equal
 provenance and importance. That recognition does not transfer authority:
 Focus remains independently governed and owns its purpose, audience, method,
 terminology, evidence, releases, licensing, and implementation choices.
@@ -205,6 +205,6 @@ implicit authority to change its meaning.
 The charter is the highest public authority in this repository. An amendment
 requires a public proposal, consequences and compatibility analysis, review
 against the adopted Commons release and Focus boundaries, documented material
-dissent, explicit steward approval, and an identifiable semantic release. No
+dissent, explicit steward approval, and an identifiable documentation edition. No
 example, pilot result, implementation, tool behavior, repeated practice, or
 review report may amend the charter silently.
