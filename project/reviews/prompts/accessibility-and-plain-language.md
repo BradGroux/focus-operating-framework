@@ -150,3 +150,12 @@ Write a publication-safe report outside the candidate tree with:
 Do not claim a formal accessibility certification or user-study result. Use only
 the role label. Do not name tools, models, private paths, source history, or
 hidden reasoning. Do not modify the candidate or place the report.
+
+## Calendar-edition application
+
+For calendar editions, apply the current review assignment and publication
+format in [review governance](../README.md). Six lenses are covered by two
+independent reviewers, with three scoped reports each. The historical six-report
+allowlist and byte-integrity gates remain; current edition notes precede a
+separately delimited complete assembly attestation in public release metadata.
+Its detached digest covers only the attestation bytes, not the edition notes.

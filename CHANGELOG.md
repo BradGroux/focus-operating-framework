@@ -2,6 +2,24 @@
 
 All material changes to the Focus Operating Framework are recorded here.
 
+## 2026.09.05
+
+- Adopt Commons v2026.09.05 at `8868a248457dd7b663563beb243c5ebcbb8ac360`
+  through ADR 0010, preserving independent product authority.
+- Begin prospective UTC calendar editions; disclose compatibility separately and
+  preserve all historical identities without aliases.
+- Clarify no-cue recovery, missed routines, capacity, rest and external commitment
+  limits; allow existing destination evidence to serve as an Action Receipt.
+- Add adverse scenario assessment, honest field-evidence follow-up and runnable
+  release instructions. Separate reader-facing notes from assembly attestations.
+- Assign all six review lenses to two isolated reviewers with explicit evidence
+  limits. No runtime, CI, package or schema is introduced.
+
+See [edition notes](project/releases/v2026.09.05.md) and the
+[specification](project/specifications/v2026.09.05.md). These files describe the
+edition; only the verified annotated tag and public release prove publication.
+
+
 ## 1.1.0
 
 ### Changed

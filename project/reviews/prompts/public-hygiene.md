@@ -140,3 +140,12 @@ Sanitize the report itself. Do not repeat a secret or unnecessary private string
 in a finding; identify its location and category safely. Use only the role
 label. Do not name review tools, models, providers, private paths, or hidden
 reasoning. Do not modify the candidate or place the report.
+
+## Calendar-edition application
+
+For calendar editions, apply the current review assignment and publication
+format in [review governance](../README.md). Six lenses are covered by two
+independent reviewers, with three scoped reports each. The historical six-report
+allowlist and byte-integrity gates remain; current edition notes precede a
+separately delimited complete assembly attestation in public release metadata.
+Its detached digest covers only the attestation bytes, not the edition notes.

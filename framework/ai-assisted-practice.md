@@ -130,6 +130,15 @@ Before an external mutation:
 6. record an Action Receipt containing the request, result, and destination
    readback or visible failure.
 
+An Action Receipt need not be a separate Focus document. Existing destination
+history or confirmation can supply the request, result and readback when the
+individual can identify the exact action and inspect its outcome. Add only what
+is missing, or retain a minimal reference while that evidence is available.
+Do not duplicate confidential content or keep evidence after its purpose ends.
+If the result is unknown, label it unknown and check the destination before any
+separately authorized retry. A receipt records observed evidence, not guaranteed
+delivery or permanent retention.
+
 AI may prepare the preview or draft. It cannot press the final boundary.
 
 ## Journal and private context

@@ -21,7 +21,7 @@ The reusable [review prompts](prompts/README.md) are part of the content package
 
 ## Required independent reviews
 
-Six independent reviews are required:
+Six review lenses are required:
 
 1. Practical application.
 2. Adversarial misuse.
@@ -29,6 +29,15 @@ Six independent reviews are required:
 4. Accessibility and plain language.
 5. Public hygiene.
 6. Release integrity.
+
+For calendar editions, two reviewers independent of content preparation cover
+these lenses: one covers practical application, adversarial misuse and
+accessibility; the other covers canonical coherence, public hygiene and release
+integrity. Each produces three separately scoped reports after inspection.
+Reports from one reviewer are not three independent opinions. Reviewers cannot
+see the other reviewer's current findings. This bounded assignment preserves
+all six lenses and exact-target isolation without claiming six separate people.
+Historical editions retain their original review contracts.
 
 The disposition is produced only after all six reports are final. It is not an
 independent review.
@@ -63,6 +72,22 @@ present in the clean content candidate.
 Release-assembly verification and post-merge verification do not create in-tree
 records. Their attestations remain outside the repository tree as described
 below.
+
+Only these calendar-edition generated records may be added after its clean
+content candidate is reviewed:
+
+- `project/reviews/v2026.09.05-practical-application-review.md`
+- `project/reviews/v2026.09.05-adversarial-misuse-review.md`
+- `project/reviews/v2026.09.05-canonical-coherence-review.md`
+- `project/reviews/v2026.09.05-accessibility-and-plain-language-review.md`
+- `project/reviews/v2026.09.05-public-hygiene-review.md`
+- `project/reviews/v2026.09.05-release-integrity-review.md`
+- `project/reviews/v2026.09.05-review-disposition.md`
+
+The edition [specification](../specifications/v2026.09.05.md) and
+[runbook](../RELEASING.md) define active assembly and publication. The complete
+attestation remains out of tree and appears as a separate section after the
+reader-facing release notes. The digest covers only the exact attestation bytes.
 
 ## Reviewer isolation
 
@@ -116,9 +141,9 @@ Create an exact commit containing all release content except the seven
 allowlisted generated review records. Record its commit and tree identifiers.
 Confirm the working tree is clean.
 
-### 4. Run six independent reviews
+### 4. Run the six review lenses
 
-Give each reviewer a clean copy of that exact tree and only the assigned prompt.
+Give each reviewer a clean copy of that exact tree and only the assigned prompts.
 Reviewers write their report outside the candidate tree first. Each report must
 be publication-safe and name the exact commit, tree, scope, exclusions,
 limitations, findings, and verdict.

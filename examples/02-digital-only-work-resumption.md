@@ -62,9 +62,9 @@ preview includes no private continuity history.
 ### Continue
 
 The individual edits the authoritative draft directly under the work system's
-normal controls. They read the destination again and create a manual Action
-Receipt recording the target and prior revision, requested section edit,
-visible success, resulting revision, and destination readback. They update the
+normal controls. They read the destination again. Its existing change history and readback serve
+as the Action Receipt: target and prior revision, requested section edit,
+visible success and resulting revision are inspectable without a duplicate log. They update the
 private continuity cue with the exact unresolved question and then stop.
 
 ## Provenance and authority
@@ -75,7 +75,7 @@ private continuity cue with the exact unresolved question and then stop.
 | Supporting files | Digital sources | Control the claims they contain |
 | Private continuity cue | Temporary digital note | Non-authoritative aid to resumption |
 | Unresolved question | Proposal for later review | Not accepted into the deliverable |
-| Manual Action Receipt | Evidence of the exact external mutation | Records target, request, result, and destination readback |
+| Existing destination history and readback serving as Action Receipt | Evidence of the exact external mutation | Records target, request, result, and destination readback |
 
 ## Boundaries
 

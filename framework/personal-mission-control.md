@@ -22,8 +22,9 @@ Personal Mission Control helps the individual answer:
 - Which records and external systems remain authoritative?
 - Where is a projection stale, conflicted, unavailable, or no longer useful?
 
-Its value is faster orientation and accountable choice, not comprehensive
-visibility.
+Its intended value is easier orientation and accountable choice. Whether it
+helps a particular individual remains a question for that person; maintaining
+a comprehensive view is not a goal.
 
 ## Optional composition
 

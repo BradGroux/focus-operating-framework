@@ -21,7 +21,8 @@ after replacing every placeholder.
 8. [Release-assembly verification](release-assembly-verification.md)
 9. [Post-merge verification](post-merge-verification.md)
 
-The first six are isolated independent reviews. The disposition begins only
+The first six are review lenses assigned to two isolated reviewers for calendar
+editions, as defined in [review governance](../README.md). The disposition begins only
 after all six are complete. Release-assembly and post-merge work are verification
 passes, not independent framework reviews.
 
